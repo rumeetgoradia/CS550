@@ -1,0 +1,17 @@
+2021-02-14 21:46:23,546 [Worker-11: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-02-14 21:48:46,790 [Worker-26: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: rumeetgoradia:hadoop-common:0.0.1 @ /Users/rumeetgoradia/Documents/Spring 2021/Mass Data Mining/mdm-workspace/hadoop-common/pom.xml.
+2021-02-14 21:48:48,698 [Worker-26: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: rumeetgoradia:cs550-hw1-q1:0.0.1-SNAPSHOT @ /Users/rumeetgoradia/Documents/Spring 2021/Mass Data Mining/mdm-workspace/cs550-hw1-q1/pom.xml.
+2021-02-14 21:48:48,846 [Worker-26: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: rumeetgoradia:cs550-hw1-q1:0.0.1-SNAPSHOT @ /Users/rumeetgoradia/Documents/Spring 2021/Mass Data Mining/mdm-workspace/cs550-hw1-q2/pom.xml.
+2021-02-14 21:48:52,208 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-14 21:48:52,219 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-14 21:48:52,223 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-14 21:48:52,224 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-14 21:48:52,830 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-14 21:48:52,831 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-14 21:48:52,834 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-14 21:48:52,835 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-14 21:49:07,351 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-02-14 21:49:14,416 [Worker-41: Launching hadoop-common] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/rumeetgoradia/Documents/Spring 2021/Mass Data Mining/mdm-workspace/hadoop-common
+2021-02-14 21:49:14,416 [Worker-41: Launching hadoop-common] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2021-02-14 21:49:25,073 [Worker-16: Launching Executing install in _Users_rumeetgoradia_Documents_Spring 2021_Mass Data Mining_mdm-workspace_hadoop-common] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/rumeetgoradia/Documents/Spring 2021/Mass Data Mining/mdm-workspace/hadoop-common
+2021-02-14 21:49:25,077 [Worker-16: Launching Executing install in _Users_rumeetgoradia_Documents_Spring 2021_Mass Data Mining_mdm-workspace_hadoop-common] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install

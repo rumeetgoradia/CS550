@@ -42,8 +42,8 @@ public class Question1 extends Configured implements Tool {
 		job.setOutputKeyClass(IntWritable.class);
 		job.setOutputValueClass(Question1Writable.class);
 
-		job.setMapperClass(Map.class);
-		job.setReducerClass(Reduce.class);
+		job.setMapperClass(Q1Map.class);
+		job.setReducerClass(Q1Reduce.class);
 
 		job.setInputFormatClass(TextInputFormat.class);
 		job.setOutputFormatClass(TextOutputFormat.class);
@@ -82,7 +82,6 @@ public class Question1 extends Configured implements Tool {
 		public void write(DataOutput arg0) throws IOException {
 			arg0.writeInt(this.user);
 			arg0.writeInt(this.friendshipDegree);
-
 		}
 
 		public Integer getUser() {
@@ -103,8 +102,7 @@ public class Question1 extends Configured implements Tool {
 
 	}
 
-	public static class Map extends Mapper<LongWritable, Text, IntWritable, Question1Writable> {
-		private Text word = new Text();
+	public static class Q1Map extends Mapper<LongWritable, Text, IntWritable, Question1Writable> {
 
 		@Override
 		public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
@@ -132,7 +130,7 @@ public class Question1 extends Configured implements Tool {
 		}
 	}
 
-	public static class Reduce extends Reducer<IntWritable, Question1Writable, IntWritable, Text> {
+	public static class Q1Reduce extends Reducer<IntWritable, Question1Writable, IntWritable, Text> {
 		@Override
 		public void reduce(IntWritable key, Iterable<Question1Writable> values, Context context)
 				throws IOException, InterruptedException {

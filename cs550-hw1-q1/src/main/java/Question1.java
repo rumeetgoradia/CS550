@@ -110,7 +110,7 @@ public class Question1 extends Configured implements Tool {
 			Integer user = Integer.parseInt(dataLine[0]);
 			if (dataLine.length == 2) {
 				String[] friends = dataLine[1].split(",");
-				for (int i = 0; i < friends.length - 1; ++i) {
+				for (int i = 0; i < friends.length; ++i) {
 					Integer friend1 = Integer.parseInt(friends[i]);
 					context.write(new IntWritable(user),
 							new Question1Writable(friend1, Question1Writable.ALREADY_FRIENDS));
@@ -182,7 +182,6 @@ public class Question1 extends Configured implements Tool {
 				recommendation += sortedList.get(count).getKey();
 				++count;
 			}
-
 			context.write(key, new Text(recommendation));
 		}
 	}

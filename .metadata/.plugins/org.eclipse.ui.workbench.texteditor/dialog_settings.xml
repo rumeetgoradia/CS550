@@ -4,13 +4,27 @@
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="49517"/>
+		<item key="selection" value="8941&#x09;"/>
+		<item key="wrap" value="true"/>
+		<item key="incremental" value="false"/>
 		<list key="findhistory">
-			<item value="fro78"/>
-			<item value="49517"/>
-			<item value="run"/>
+			<item value="1473"/>
+			<item value="8941"/>
+			<item value="DAI23334,ELE92920"/>
+			<item value="DAI93865"/>
+			<item value="FRO40251"/>
+			<item value="dai"/>
+			<item value="GRO85051-&gt;FRO40251"/>
+			<item value="DAI93865-&gt;FRO40251"/>
 		</list>
 		<list key="replacehistory">
 		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="694"/>
+		<item key="DIALOG_Y_ORIGIN" value="271"/>
+		<item key="DIALOG_WIDTH" value="292"/>
+		<item key="DIALOG_HEIGHT" value="381"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
 	</section>
 </section>

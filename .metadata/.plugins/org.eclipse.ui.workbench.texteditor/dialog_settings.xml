@@ -8,6 +8,7 @@
 		<item key="wrap" value="true"/>
 		<item key="incremental" value="false"/>
 		<list key="findhistory">
+			<item value="GRO38814,GRO85051"/>
 			<item value="1473"/>
 			<item value="8941"/>
 			<item value="DAI23334,ELE92920"/>
@@ -15,7 +16,6 @@
 			<item value="FRO40251"/>
 			<item value="dai"/>
 			<item value="GRO85051-&gt;FRO40251"/>
-			<item value="DAI93865-&gt;FRO40251"/>
 		</list>
 		<list key="replacehistory">
 		</list>

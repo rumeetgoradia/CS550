@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+/Users/rumeetgoradia/Documents/Spring 2021/Mass Data Mining/mdm-workspace/.metadata/.plugins/org.eclipse.jdt.core
-2369615011.index
-338961689.index

@@ -35,6 +35,15 @@ for i in range(0, NUM_ITERATIONS):
     r = ((1 - BETA) / NUM_NODES) * ONE + BETA * M @ tempR
 
 top5Nodes = np.flip(np.argsort(r.T))[:, :5] + 1
+top5Nodes = top5Nodes[0]
 bottom5Nodes = np.argsort(r.T)[:, :5] + 1
-print(top5Nodes)
-print(bottom5Nodes)
+bottom5Nodes = bottom5Nodes[0]
+
+print("TOP 5 NODES")
+for node in top5Nodes:
+    print(node, "\t|\t", r[node - 1][0])
+
+print("------------------")
+print("BOTTOM 5 NODES")
+for node in bottom5Nodes:
+    print(node, "\t|\t", r[node - 1][0])
